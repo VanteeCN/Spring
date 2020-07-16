@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="cn.rayfoo.mapper.AccountMapper">
+
+    <select id="findAccountByName" resultType="cn.rayfoo.bean.Account" parameterType="java.lang.String">
+        select id,`name`,money
+        from account
+        <where>
+            <if test="accountName != '' and accountName != null">
+                `name` = #{accountName}
+            </if>
+        </where>
+    </select>
+
+</mapper>

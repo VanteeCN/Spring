@@ -1,0 +1,575 @@
+2020-07-16 19:20:13.279 [localhost-startStop-1] DEBUG o.s.web.filter.CharacterEncodingFilter - Filter 'characterEncodingFilter' configured for use
+2020-07-16 19:20:13.307 [localhost-startStop-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-07-16 19:20:13.320 [localhost-startStop-1] DEBUG o.s.web.context.support.XmlWebApplicationContext - Refreshing WebApplicationContext for namespace 'dispatcherServlet-servlet'
+2020-07-16 19:20:13.504 [localhost-startStop-1] DEBUG o.s.c.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/rayfoo/IdeaProjects/Spring/ssm_maven/target/classes/cn/rayfoo/common/MyAspect.class]
+2020-07-16 19:20:13.519 [localhost-startStop-1] DEBUG o.s.c.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/rayfoo/IdeaProjects/Spring/ssm_maven/target/classes/cn/rayfoo/controller/AccountController.class]
+2020-07-16 19:20:13.521 [localhost-startStop-1] DEBUG o.s.c.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/rayfoo/IdeaProjects/Spring/ssm_maven/target/classes/cn/rayfoo/controller/PersonController.class]
+2020-07-16 19:20:13.526 [localhost-startStop-1] DEBUG o.s.c.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/rayfoo/IdeaProjects/Spring/ssm_maven/target/classes/cn/rayfoo/service/impl/AccountServiceImpl.class]
+2020-07-16 19:20:13.526 [localhost-startStop-1] DEBUG o.s.c.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/rayfoo/IdeaProjects/Spring/ssm_maven/target/classes/cn/rayfoo/service/impl/PersonServiceImpl.class]
+2020-07-16 19:20:13.574 [localhost-startStop-1] DEBUG o.s.beans.factory.xml.XmlBeanDefinitionReader - Loaded 2 bean definitions from class path resource [spring/Spring-AOP.xml]
+2020-07-16 19:20:13.575 [localhost-startStop-1] DEBUG o.s.beans.factory.xml.XmlBeanDefinitionReader - Loaded 22 bean definitions from class path resource [spring/Spring-DAO.xml]
+2020-07-16 19:20:13.606 [localhost-startStop-1] DEBUG o.s.beans.factory.xml.XmlBeanDefinitionReader - Loaded 39 bean definitions from class path resource [spring/Spring-MVC.xml]
+2020-07-16 19:20:13.635 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2020-07-16 19:20:13.700 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.mybatis.spring.mapper.MapperScannerConfigurer#0'
+2020-07-16 19:20:13.713 [localhost-startStop-1] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [/Users/rayfoo/IdeaProjects/Spring/ssm_maven/target/classes/cn/rayfoo/mapper/AccountMapper.class]
+2020-07-16 19:20:13.713 [localhost-startStop-1] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [/Users/rayfoo/IdeaProjects/Spring/ssm_maven/target/classes/cn/rayfoo/mapper/PersonMapper.class]
+2020-07-16 19:20:13.713 [localhost-startStop-1] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'accountMapper' and 'cn.rayfoo.mapper.AccountMapper' mapperInterface
+2020-07-16 19:20:13.714 [localhost-startStop-1] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'accountMapper'.
+2020-07-16 19:20:13.714 [localhost-startStop-1] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'personMapper' and 'cn.rayfoo.mapper.PersonMapper' mapperInterface
+2020-07-16 19:20:13.714 [localhost-startStop-1] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'personMapper'.
+2020-07-16 19:20:13.716 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0'
+2020-07-16 19:20:13.730 [localhost-startStop-1] DEBUG org.springframework.jndi.JndiTemplate - Looking up JNDI object with name [java:comp/env/jdbc.driverClassName]
+2020-07-16 19:20:13.735 [localhost-startStop-1] DEBUG org.springframework.jndi.JndiLocatorDelegate - Converted JNDI name [java:comp/env/jdbc.driverClassName] not found - trying original name [jdbc.driverClassName]. javax.naming.NameNotFoundException: Name [jdbc.driverClassName] is not bound in this Context. Unable to find [jdbc.driverClassName].
+2020-07-16 19:20:13.735 [localhost-startStop-1] DEBUG org.springframework.jndi.JndiTemplate - Looking up JNDI object with name [jdbc.driverClassName]
+2020-07-16 19:20:13.736 [localhost-startStop-1] DEBUG org.springframework.jndi.JndiPropertySource - JNDI lookup for name [jdbc.driverClassName] threw NamingException with message: Name [jdbc.driverClassName] is not bound in this Context. Unable to find [jdbc.driverClassName].. Returning null.
+2020-07-16 19:20:13.737 [localhost-startStop-1] DEBUG o.s.core.env.PropertySourcesPropertyResolver - Found key 'jdbc.driverClassName' in PropertySource 'localProperties' with value of type String
+2020-07-16 19:20:13.738 [localhost-startStop-1] DEBUG org.springframework.jndi.JndiTemplate - Looking up JNDI object with name [java:comp/env/jdbc.url]
+2020-07-16 19:20:13.738 [localhost-startStop-1] DEBUG org.springframework.jndi.JndiLocatorDelegate - Converted JNDI name [java:comp/env/jdbc.url] not found - trying original name [jdbc.url]. javax.naming.NameNotFoundException: Name [jdbc.url] is not bound in this Context. Unable to find [jdbc.url].
+2020-07-16 19:20:13.738 [localhost-startStop-1] DEBUG org.springframework.jndi.JndiTemplate - Looking up JNDI object with name [jdbc.url]
+2020-07-16 19:20:13.739 [localhost-startStop-1] DEBUG org.springframework.jndi.JndiPropertySource - JNDI lookup for name [jdbc.url] threw NamingException with message: Name [jdbc.url] is not bound in this Context. Unable to find [jdbc.url].. Returning null.
+2020-07-16 19:20:13.739 [localhost-startStop-1] DEBUG o.s.core.env.PropertySourcesPropertyResolver - Found key 'jdbc.url' in PropertySource 'localProperties' with value of type String
+2020-07-16 19:20:13.739 [localhost-startStop-1] DEBUG org.springframework.jndi.JndiTemplate - Looking up JNDI object with name [java:comp/env/jdbc.username]
+2020-07-16 19:20:13.740 [localhost-startStop-1] DEBUG org.springframework.jndi.JndiLocatorDelegate - Converted JNDI name [java:comp/env/jdbc.username] not found - trying original name [jdbc.username]. javax.naming.NameNotFoundException: Name [jdbc.username] is not bound in this Context. Unable to find [jdbc.username].
+2020-07-16 19:20:13.740 [localhost-startStop-1] DEBUG org.springframework.jndi.JndiTemplate - Looking up JNDI object with name [jdbc.username]
+2020-07-16 19:20:13.740 [localhost-startStop-1] DEBUG org.springframework.jndi.JndiPropertySource - JNDI lookup for name [jdbc.username] threw NamingException with message: Name [jdbc.username] is not bound in this Context. Unable to find [jdbc.username].. Returning null.
+2020-07-16 19:20:13.740 [localhost-startStop-1] DEBUG o.s.core.env.PropertySourcesPropertyResolver - Found key 'jdbc.username' in PropertySource 'localProperties' with value of type String
+2020-07-16 19:20:13.741 [localhost-startStop-1] DEBUG org.springframework.jndi.JndiTemplate - Looking up JNDI object with name [java:comp/env/jdbc.password]
+2020-07-16 19:20:13.741 [localhost-startStop-1] DEBUG org.springframework.jndi.JndiLocatorDelegate - Converted JNDI name [java:comp/env/jdbc.password] not found - trying original name [jdbc.password]. javax.naming.NameNotFoundException: Name [jdbc.password] is not bound in this Context. Unable to find [jdbc.password].
+2020-07-16 19:20:13.741 [localhost-startStop-1] DEBUG org.springframework.jndi.JndiTemplate - Looking up JNDI object with name [jdbc.password]
+2020-07-16 19:20:13.742 [localhost-startStop-1] DEBUG org.springframework.jndi.JndiPropertySource - JNDI lookup for name [jdbc.password] threw NamingException with message: Name [jdbc.password] is not bound in this Context. Unable to find [jdbc.password].. Returning null.
+2020-07-16 19:20:13.742 [localhost-startStop-1] DEBUG o.s.core.env.PropertySourcesPropertyResolver - Found key 'jdbc.password' in PropertySource 'localProperties' with value of type String
+2020-07-16 19:20:13.743 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2020-07-16 19:20:13.745 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2020-07-16 19:20:13.745 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionalEventListenerFactory'
+2020-07-16 19:20:13.749 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2020-07-16 19:20:13.750 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2020-07-16 19:20:13.752 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2020-07-16 19:20:13.779 [localhost-startStop-1] DEBUG o.s.ui.context.support.UiApplicationContextUtils - Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.ResourceBundleThemeSource@57c29916]
+2020-07-16 19:20:13.780 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2020-07-16 19:20:13.782 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0'
+2020-07-16 19:20:13.783 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+2020-07-16 19:20:13.923 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'conversionService'
+2020-07-16 19:20:13.988 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'myAspect'
+2020-07-16 19:20:13.989 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'accountController'
+2020-07-16 19:20:14.006 [localhost-startStop-1] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-07-16 19:20:14.014 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'accountServiceImpl'
+2020-07-16 19:20:14.018 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'accountMapper'
+2020-07-16 19:20:14.028 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'sqlSessionFactory'
+2020-07-16 19:20:14.029 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'dataSource'
+2020-07-16 19:20:14.162 [localhost-startStop-1] DEBUG org.apache.ibatis.io.VFS - Class not found: org.jboss.vfs.VFS
+2020-07-16 19:20:14.163 [localhost-startStop-1] DEBUG org.apache.ibatis.io.JBoss6VFS - JBoss 6 VFS API is not available in this environment.
+2020-07-16 19:20:14.163 [localhost-startStop-1] DEBUG org.apache.ibatis.io.VFS - Class not found: org.jboss.vfs.VirtualFile
+2020-07-16 19:20:14.164 [localhost-startStop-1] DEBUG org.apache.ibatis.io.VFS - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2020-07-16 19:20:14.165 [localhost-startStop-1] DEBUG org.apache.ibatis.io.VFS - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2020-07-16 19:20:14.166 [localhost-startStop-1] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/Users/rayfoo/IdeaProjects/Spring/ssm_maven/target/classes/cn/rayfoo/bean
+2020-07-16 19:20:14.166 [localhost-startStop-1] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/Users/rayfoo/IdeaProjects/Spring/ssm_maven/target/classes/cn/rayfoo/bean
+2020-07-16 19:20:14.204 [localhost-startStop-1] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: Account.class
+2020-07-16 19:20:14.205 [localhost-startStop-1] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: Person.class
+2020-07-16 19:20:14.206 [localhost-startStop-1] DEBUG org.apache.ibatis.io.DefaultVFS - Listing file:/Users/rayfoo/IdeaProjects/Spring/ssm_maven/target/classes/cn/rayfoo/bean
+2020-07-16 19:20:14.206 [localhost-startStop-1] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/Users/rayfoo/IdeaProjects/Spring/ssm_maven/target/classes/cn/rayfoo/bean/Account.class
+2020-07-16 19:20:14.206 [localhost-startStop-1] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/Users/rayfoo/IdeaProjects/Spring/ssm_maven/target/classes/cn/rayfoo/bean/Account.class
+2020-07-16 19:20:14.207 [localhost-startStop-1] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: ����   4 g	      cn/rayfoo/bean/Account id Ljava/lang/Integer;	   	 
+2020-07-16 19:20:14.210 [localhost-startStop-1] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/Users/rayfoo/IdeaProjects/Spring/ssm_maven/target/classes/cn/rayfoo/bean/Person.class
+2020-07-16 19:20:14.210 [localhost-startStop-1] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/Users/rayfoo/IdeaProjects/Spring/ssm_maven/target/classes/cn/rayfoo/bean/Person.class
+2020-07-16 19:20:14.211 [localhost-startStop-1] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: ����   4 d
+2020-07-16 19:20:14.213 [localhost-startStop-1] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class cn.rayfoo.bean.Account matches criteria [is assignable to Object]
+2020-07-16 19:20:14.214 [localhost-startStop-1] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class cn.rayfoo.bean.Person matches criteria [is assignable to Object]
+2020-07-16 19:20:14.215 [localhost-startStop-1] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Scanned package: 'cn.rayfoo.bean' for aliases
+2020-07-16 19:20:14.310 [localhost-startStop-1] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed configuration file: 'class path resource [mybatis/mybatis-cfg.xml]'
+2020-07-16 19:20:14.339 [localhost-startStop-1] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [/Users/rayfoo/IdeaProjects/Spring/ssm_maven/target/classes/mybatis/mapper/AccountMapper.xml]'
+2020-07-16 19:20:14.373 [localhost-startStop-1] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [/Users/rayfoo/IdeaProjects/Spring/ssm_maven/target/classes/mybatis/mapper/PersonMapper.xml]'
+2020-07-16 19:20:14.401 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.transaction.interceptor.TransactionInterceptor#0'
+2020-07-16 19:20:14.418 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'personController'
+2020-07-16 19:20:14.420 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'personServiceImpl'
+2020-07-16 19:20:14.422 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'personMapper'
+2020-07-16 19:20:14.427 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'transactionManager'
+2020-07-16 19:20:14.437 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2020-07-16 19:20:14.439 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#0'
+2020-07-16 19:20:14.462 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.handler.MappedInterceptor#0'
+2020-07-16 19:20:14.471 [localhost-startStop-1] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/**] in 'org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#0'
+2020-07-16 19:20:14.472 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mvcCorsConfigurations'
+2020-07-16 19:20:14.483 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping'
+2020-07-16 19:20:14.490 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter'
+2020-07-16 19:20:14.491 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter'
+2020-07-16 19:20:14.491 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mvcContentNegotiationManager'
+2020-07-16 19:20:14.505 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping'
+2020-07-16 19:20:14.534 [localhost-startStop-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 3 mappings in 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping'
+2020-07-16 19:20:14.536 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter'
+2020-07-16 19:20:14.744 [localhost-startStop-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2020-07-16 19:20:14.767 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mvcUriComponentsContributor'
+2020-07-16 19:20:14.788 [localhost-startStop-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2020-07-16 19:20:14.793 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0'
+2020-07-16 19:20:14.820 [localhost-startStop-1] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2020-07-16 19:20:14.821 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0'
+2020-07-16 19:20:14.825 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0'
+2020-07-16 19:20:14.827 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'internalResourceViewResolver'
+2020-07-16 19:20:14.863 [localhost-startStop-1] DEBUG org.springframework.jndi.JndiTemplate - Looking up JNDI object with name [java:comp/env/spring.liveBeansView.mbeanDomain]
+2020-07-16 19:20:14.864 [localhost-startStop-1] DEBUG org.springframework.jndi.JndiLocatorDelegate - Converted JNDI name [java:comp/env/spring.liveBeansView.mbeanDomain] not found - trying original name [spring.liveBeansView.mbeanDomain]. javax.naming.NameNotFoundException: Name [spring.liveBeansView.mbeanDomain] is not bound in this Context. Unable to find [spring.liveBeansView.mbeanDomain].
+2020-07-16 19:20:14.864 [localhost-startStop-1] DEBUG org.springframework.jndi.JndiTemplate - Looking up JNDI object with name [spring.liveBeansView.mbeanDomain]
+2020-07-16 19:20:14.864 [localhost-startStop-1] DEBUG org.springframework.jndi.JndiPropertySource - JNDI lookup for name [spring.liveBeansView.mbeanDomain] threw NamingException with message: Name [spring.liveBeansView.mbeanDomain] is not bound in this Context. Unable to find [spring.liveBeansView.mbeanDomain].. Returning null.
+2020-07-16 19:20:14.867 [localhost-startStop-1] DEBUG org.springframework.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2020-07-16 19:20:14.867 [localhost-startStop-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1559 ms
+2020-07-16 19:20:21.375 [http-bio-8080-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - POST "/transFer.php?sourceName=aaa&targetName=bbb&money=10", parameters={masked}
+2020-07-16 19:20:21.380 [http-bio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public java.lang.String cn.rayfoo.controller.AccountController.transFer(java.lang.String,java.lang.String,java.lang.Double)
+2020-07-16 19:20:21.405 [http-bio-8080-exec-2] DEBUG o.s.jdbc.datasource.DataSourceTransactionManager - Creating new transaction with name [cn.rayfoo.service.impl.AccountServiceImpl.transFer]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+2020-07-16 19:20:21.446 [http-bio-8080-exec-2] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-07-16 19:20:21.652 [http-bio-8080-exec-2] DEBUG o.s.jdbc.datasource.DataSourceTransactionManager - Acquired Connection [com.mysql.jdbc.JDBC4Connection@36df1340] for JDBC transaction
+2020-07-16 19:20:21.654 [http-bio-8080-exec-2] DEBUG o.s.jdbc.datasource.DataSourceTransactionManager - Switching JDBC Connection [com.mysql.jdbc.JDBC4Connection@36df1340] to manual commit
+2020-07-16 19:20:21.657 [http-bio-8080-exec-2] DEBUG cn.rayfoo.common.MyAspect - 进入了切点
+2020-07-16 19:20:21.657 [http-bio-8080-exec-2] DEBUG cn.rayfoo.service.impl.AccountServiceImpl - 进入了transFer
+2020-07-16 19:20:21.792 [http-bio-8080-exec-2] DEBUG o.s.jdbc.datasource.DataSourceTransactionManager - Initiating transaction commit
+2020-07-16 19:20:21.793 [http-bio-8080-exec-2] DEBUG o.s.jdbc.datasource.DataSourceTransactionManager - Committing JDBC transaction on Connection [com.mysql.jdbc.JDBC4Connection@36df1340]
+2020-07-16 19:20:21.798 [http-bio-8080-exec-2] DEBUG o.s.jdbc.datasource.DataSourceTransactionManager - Releasing JDBC Connection [com.mysql.jdbc.JDBC4Connection@36df1340] after transaction
+2020-07-16 19:20:21.823 [http-bio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'text/html;charset=utf-8', given [*/*] and supported [text/html;charset=utf-8, application/json;charset=utf-8, application/json, application/*+json, text/plain, */*, application/json, application/*+json]
+2020-07-16 19:20:21.824 [http-bio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing ["转账成功！"]
+2020-07-16 19:20:21.839 [http-bio-8080-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2020-07-16 19:36:53.267 [localhost-startStop-1] DEBUG o.s.web.filter.CharacterEncodingFilter - Filter 'characterEncodingFilter' configured for use
+2020-07-16 19:36:53.292 [localhost-startStop-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-07-16 19:36:53.304 [localhost-startStop-1] DEBUG o.s.web.context.support.XmlWebApplicationContext - Refreshing WebApplicationContext for namespace 'dispatcherServlet-servlet'
+2020-07-16 19:36:53.524 [localhost-startStop-1] DEBUG o.s.c.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/rayfoo/IdeaProjects/Spring/ssm_maven/target/classes/cn/rayfoo/common/MyAspect.class]
+2020-07-16 19:36:53.532 [localhost-startStop-1] DEBUG o.s.c.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/rayfoo/IdeaProjects/Spring/ssm_maven/target/classes/cn/rayfoo/controller/AccountController.class]
+2020-07-16 19:36:53.533 [localhost-startStop-1] DEBUG o.s.c.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/rayfoo/IdeaProjects/Spring/ssm_maven/target/classes/cn/rayfoo/controller/PersonController.class]
+2020-07-16 19:36:53.536 [localhost-startStop-1] DEBUG o.s.c.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/rayfoo/IdeaProjects/Spring/ssm_maven/target/classes/cn/rayfoo/service/impl/AccountServiceImpl.class]
+2020-07-16 19:36:53.537 [localhost-startStop-1] DEBUG o.s.c.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/rayfoo/IdeaProjects/Spring/ssm_maven/target/classes/cn/rayfoo/service/impl/PersonServiceImpl.class]
+2020-07-16 19:36:53.586 [localhost-startStop-1] DEBUG o.s.beans.factory.xml.XmlBeanDefinitionReader - Loaded 2 bean definitions from class path resource [spring/Spring-AOP.xml]
+2020-07-16 19:36:53.586 [localhost-startStop-1] DEBUG o.s.beans.factory.xml.XmlBeanDefinitionReader - Loaded 22 bean definitions from class path resource [spring/Spring-DAO.xml]
+2020-07-16 19:36:53.616 [localhost-startStop-1] DEBUG o.s.beans.factory.xml.XmlBeanDefinitionReader - Loaded 39 bean definitions from class path resource [spring/Spring-MVC.xml]
+2020-07-16 19:36:53.641 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2020-07-16 19:36:53.715 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.mybatis.spring.mapper.MapperScannerConfigurer#0'
+2020-07-16 19:36:53.728 [localhost-startStop-1] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [/Users/rayfoo/IdeaProjects/Spring/ssm_maven/target/classes/cn/rayfoo/mapper/AccountMapper.class]
+2020-07-16 19:36:53.728 [localhost-startStop-1] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [/Users/rayfoo/IdeaProjects/Spring/ssm_maven/target/classes/cn/rayfoo/mapper/PersonMapper.class]
+2020-07-16 19:36:53.729 [localhost-startStop-1] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'accountMapper' and 'cn.rayfoo.mapper.AccountMapper' mapperInterface
+2020-07-16 19:36:53.729 [localhost-startStop-1] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'accountMapper'.
+2020-07-16 19:36:53.729 [localhost-startStop-1] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'personMapper' and 'cn.rayfoo.mapper.PersonMapper' mapperInterface
+2020-07-16 19:36:53.729 [localhost-startStop-1] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'personMapper'.
+2020-07-16 19:36:53.731 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0'
+2020-07-16 19:36:53.744 [localhost-startStop-1] DEBUG org.springframework.jndi.JndiTemplate - Looking up JNDI object with name [java:comp/env/jdbc.driverClassName]
+2020-07-16 19:36:53.746 [localhost-startStop-1] DEBUG org.springframework.jndi.JndiLocatorDelegate - Converted JNDI name [java:comp/env/jdbc.driverClassName] not found - trying original name [jdbc.driverClassName]. javax.naming.NameNotFoundException: Name [jdbc.driverClassName] is not bound in this Context. Unable to find [jdbc.driverClassName].
+2020-07-16 19:36:53.746 [localhost-startStop-1] DEBUG org.springframework.jndi.JndiTemplate - Looking up JNDI object with name [jdbc.driverClassName]
+2020-07-16 19:36:53.746 [localhost-startStop-1] DEBUG org.springframework.jndi.JndiPropertySource - JNDI lookup for name [jdbc.driverClassName] threw NamingException with message: Name [jdbc.driverClassName] is not bound in this Context. Unable to find [jdbc.driverClassName].. Returning null.
+2020-07-16 19:36:53.746 [localhost-startStop-1] DEBUG o.s.core.env.PropertySourcesPropertyResolver - Found key 'jdbc.driverClassName' in PropertySource 'localProperties' with value of type String
+2020-07-16 19:36:53.747 [localhost-startStop-1] DEBUG org.springframework.jndi.JndiTemplate - Looking up JNDI object with name [java:comp/env/jdbc.url]
+2020-07-16 19:36:53.747 [localhost-startStop-1] DEBUG org.springframework.jndi.JndiLocatorDelegate - Converted JNDI name [java:comp/env/jdbc.url] not found - trying original name [jdbc.url]. javax.naming.NameNotFoundException: Name [jdbc.url] is not bound in this Context. Unable to find [jdbc.url].
+2020-07-16 19:36:53.747 [localhost-startStop-1] DEBUG org.springframework.jndi.JndiTemplate - Looking up JNDI object with name [jdbc.url]
+2020-07-16 19:36:53.747 [localhost-startStop-1] DEBUG org.springframework.jndi.JndiPropertySource - JNDI lookup for name [jdbc.url] threw NamingException with message: Name [jdbc.url] is not bound in this Context. Unable to find [jdbc.url].. Returning null.
+2020-07-16 19:36:53.747 [localhost-startStop-1] DEBUG o.s.core.env.PropertySourcesPropertyResolver - Found key 'jdbc.url' in PropertySource 'localProperties' with value of type String
+2020-07-16 19:36:53.747 [localhost-startStop-1] DEBUG org.springframework.jndi.JndiTemplate - Looking up JNDI object with name [java:comp/env/jdbc.username]
+2020-07-16 19:36:53.748 [localhost-startStop-1] DEBUG org.springframework.jndi.JndiLocatorDelegate - Converted JNDI name [java:comp/env/jdbc.username] not found - trying original name [jdbc.username]. javax.naming.NameNotFoundException: Name [jdbc.username] is not bound in this Context. Unable to find [jdbc.username].
+2020-07-16 19:36:53.748 [localhost-startStop-1] DEBUG org.springframework.jndi.JndiTemplate - Looking up JNDI object with name [jdbc.username]
+2020-07-16 19:36:53.748 [localhost-startStop-1] DEBUG org.springframework.jndi.JndiPropertySource - JNDI lookup for name [jdbc.username] threw NamingException with message: Name [jdbc.username] is not bound in this Context. Unable to find [jdbc.username].. Returning null.
+2020-07-16 19:36:53.748 [localhost-startStop-1] DEBUG o.s.core.env.PropertySourcesPropertyResolver - Found key 'jdbc.username' in PropertySource 'localProperties' with value of type String
+2020-07-16 19:36:53.749 [localhost-startStop-1] DEBUG org.springframework.jndi.JndiTemplate - Looking up JNDI object with name [java:comp/env/jdbc.password]
+2020-07-16 19:36:53.749 [localhost-startStop-1] DEBUG org.springframework.jndi.JndiLocatorDelegate - Converted JNDI name [java:comp/env/jdbc.password] not found - trying original name [jdbc.password]. javax.naming.NameNotFoundException: Name [jdbc.password] is not bound in this Context. Unable to find [jdbc.password].
+2020-07-16 19:36:53.749 [localhost-startStop-1] DEBUG org.springframework.jndi.JndiTemplate - Looking up JNDI object with name [jdbc.password]
+2020-07-16 19:36:53.749 [localhost-startStop-1] DEBUG org.springframework.jndi.JndiPropertySource - JNDI lookup for name [jdbc.password] threw NamingException with message: Name [jdbc.password] is not bound in this Context. Unable to find [jdbc.password].. Returning null.
+2020-07-16 19:36:53.749 [localhost-startStop-1] DEBUG o.s.core.env.PropertySourcesPropertyResolver - Found key 'jdbc.password' in PropertySource 'localProperties' with value of type String
+2020-07-16 19:36:53.751 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2020-07-16 19:36:53.753 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2020-07-16 19:36:53.754 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionalEventListenerFactory'
+2020-07-16 19:36:53.757 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2020-07-16 19:36:53.758 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2020-07-16 19:36:53.760 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2020-07-16 19:36:53.784 [localhost-startStop-1] DEBUG o.s.ui.context.support.UiApplicationContextUtils - Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.ResourceBundleThemeSource@659c88ca]
+2020-07-16 19:36:53.786 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2020-07-16 19:36:53.787 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0'
+2020-07-16 19:36:53.787 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+2020-07-16 19:36:53.959 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'conversionService'
+2020-07-16 19:36:54.006 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'myAspect'
+2020-07-16 19:36:54.007 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'accountController'
+2020-07-16 19:36:54.017 [localhost-startStop-1] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-07-16 19:36:54.031 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'accountServiceImpl'
+2020-07-16 19:36:54.033 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'accountMapper'
+2020-07-16 19:36:54.041 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'sqlSessionFactory'
+2020-07-16 19:36:54.042 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'dataSource'
+2020-07-16 19:36:54.154 [localhost-startStop-1] DEBUG org.apache.ibatis.io.VFS - Class not found: org.jboss.vfs.VFS
+2020-07-16 19:36:54.154 [localhost-startStop-1] DEBUG org.apache.ibatis.io.JBoss6VFS - JBoss 6 VFS API is not available in this environment.
+2020-07-16 19:36:54.155 [localhost-startStop-1] DEBUG org.apache.ibatis.io.VFS - Class not found: org.jboss.vfs.VirtualFile
+2020-07-16 19:36:54.155 [localhost-startStop-1] DEBUG org.apache.ibatis.io.VFS - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2020-07-16 19:36:54.156 [localhost-startStop-1] DEBUG org.apache.ibatis.io.VFS - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2020-07-16 19:36:54.157 [localhost-startStop-1] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/Users/rayfoo/IdeaProjects/Spring/ssm_maven/target/classes/cn/rayfoo/bean
+2020-07-16 19:36:54.157 [localhost-startStop-1] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/Users/rayfoo/IdeaProjects/Spring/ssm_maven/target/classes/cn/rayfoo/bean
+2020-07-16 19:36:54.187 [localhost-startStop-1] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: Account.class
+2020-07-16 19:36:54.188 [localhost-startStop-1] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: Person.class
+2020-07-16 19:36:54.188 [localhost-startStop-1] DEBUG org.apache.ibatis.io.DefaultVFS - Listing file:/Users/rayfoo/IdeaProjects/Spring/ssm_maven/target/classes/cn/rayfoo/bean
+2020-07-16 19:36:54.188 [localhost-startStop-1] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/Users/rayfoo/IdeaProjects/Spring/ssm_maven/target/classes/cn/rayfoo/bean/Account.class
+2020-07-16 19:36:54.188 [localhost-startStop-1] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/Users/rayfoo/IdeaProjects/Spring/ssm_maven/target/classes/cn/rayfoo/bean/Account.class
+2020-07-16 19:36:54.189 [localhost-startStop-1] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: ����   4 g	      cn/rayfoo/bean/Account id Ljava/lang/Integer;	   	 
+2020-07-16 19:36:54.192 [localhost-startStop-1] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/Users/rayfoo/IdeaProjects/Spring/ssm_maven/target/classes/cn/rayfoo/bean/Person.class
+2020-07-16 19:36:54.192 [localhost-startStop-1] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/Users/rayfoo/IdeaProjects/Spring/ssm_maven/target/classes/cn/rayfoo/bean/Person.class
+2020-07-16 19:36:54.193 [localhost-startStop-1] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: ����   4 d
+2020-07-16 19:36:54.194 [localhost-startStop-1] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class cn.rayfoo.bean.Account matches criteria [is assignable to Object]
+2020-07-16 19:36:54.195 [localhost-startStop-1] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class cn.rayfoo.bean.Person matches criteria [is assignable to Object]
+2020-07-16 19:36:54.196 [localhost-startStop-1] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Scanned package: 'cn.rayfoo.bean' for aliases
+2020-07-16 19:36:54.257 [localhost-startStop-1] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed configuration file: 'class path resource [mybatis/mybatis-cfg.xml]'
+2020-07-16 19:36:54.291 [localhost-startStop-1] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [/Users/rayfoo/IdeaProjects/Spring/ssm_maven/target/classes/mybatis/mapper/AccountMapper.xml]'
+2020-07-16 19:36:54.322 [localhost-startStop-1] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [/Users/rayfoo/IdeaProjects/Spring/ssm_maven/target/classes/mybatis/mapper/PersonMapper.xml]'
+2020-07-16 19:36:54.348 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.transaction.interceptor.TransactionInterceptor#0'
+2020-07-16 19:36:54.365 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'personController'
+2020-07-16 19:36:54.367 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'personServiceImpl'
+2020-07-16 19:36:54.369 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'personMapper'
+2020-07-16 19:36:54.373 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'transactionManager'
+2020-07-16 19:36:54.384 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2020-07-16 19:36:54.387 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#0'
+2020-07-16 19:36:54.405 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.handler.MappedInterceptor#0'
+2020-07-16 19:36:54.413 [localhost-startStop-1] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/**] in 'org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#0'
+2020-07-16 19:36:54.414 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mvcCorsConfigurations'
+2020-07-16 19:36:54.420 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping'
+2020-07-16 19:36:54.426 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter'
+2020-07-16 19:36:54.427 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter'
+2020-07-16 19:36:54.428 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mvcContentNegotiationManager'
+2020-07-16 19:36:54.438 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping'
+2020-07-16 19:36:54.468 [localhost-startStop-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 3 mappings in 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping'
+2020-07-16 19:36:54.470 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter'
+2020-07-16 19:36:54.666 [localhost-startStop-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2020-07-16 19:36:54.688 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mvcUriComponentsContributor'
+2020-07-16 19:36:54.706 [localhost-startStop-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2020-07-16 19:36:54.713 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0'
+2020-07-16 19:36:54.735 [localhost-startStop-1] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2020-07-16 19:36:54.736 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0'
+2020-07-16 19:36:54.740 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0'
+2020-07-16 19:36:54.743 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'internalResourceViewResolver'
+2020-07-16 19:36:54.773 [localhost-startStop-1] DEBUG org.springframework.jndi.JndiTemplate - Looking up JNDI object with name [java:comp/env/spring.liveBeansView.mbeanDomain]
+2020-07-16 19:36:54.774 [localhost-startStop-1] DEBUG org.springframework.jndi.JndiLocatorDelegate - Converted JNDI name [java:comp/env/spring.liveBeansView.mbeanDomain] not found - trying original name [spring.liveBeansView.mbeanDomain]. javax.naming.NameNotFoundException: Name [spring.liveBeansView.mbeanDomain] is not bound in this Context. Unable to find [spring.liveBeansView.mbeanDomain].
+2020-07-16 19:36:54.774 [localhost-startStop-1] DEBUG org.springframework.jndi.JndiTemplate - Looking up JNDI object with name [spring.liveBeansView.mbeanDomain]
+2020-07-16 19:36:54.774 [localhost-startStop-1] DEBUG org.springframework.jndi.JndiPropertySource - JNDI lookup for name [spring.liveBeansView.mbeanDomain] threw NamingException with message: Name [spring.liveBeansView.mbeanDomain] is not bound in this Context. Unable to find [spring.liveBeansView.mbeanDomain].. Returning null.
+2020-07-16 19:36:54.776 [localhost-startStop-1] DEBUG org.springframework.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2020-07-16 19:36:54.776 [localhost-startStop-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1483 ms
+2020-07-16 19:37:00.882 [http-bio-8080-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - POST "/transFer.php?sourceName=aaa&targetName=bbb&money=10", parameters={masked}
+2020-07-16 19:37:00.904 [http-bio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public java.lang.String cn.rayfoo.controller.AccountController.transFer(java.lang.String,java.lang.String,java.lang.Double)
+2020-07-16 19:37:00.935 [http-bio-8080-exec-2] DEBUG o.s.jdbc.datasource.DataSourceTransactionManager - Creating new transaction with name [cn.rayfoo.service.impl.AccountServiceImpl.transFer]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+2020-07-16 19:37:00.977 [http-bio-8080-exec-2] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-07-16 19:37:01.196 [http-bio-8080-exec-2] DEBUG o.s.jdbc.datasource.DataSourceTransactionManager - Acquired Connection [com.mysql.jdbc.JDBC4Connection@5fdac742] for JDBC transaction
+2020-07-16 19:37:01.199 [http-bio-8080-exec-2] DEBUG o.s.jdbc.datasource.DataSourceTransactionManager - Switching JDBC Connection [com.mysql.jdbc.JDBC4Connection@5fdac742] to manual commit
+2020-07-16 19:37:01.202 [http-bio-8080-exec-2] DEBUG cn.rayfoo.common.MyAspect - 进入了切点
+2020-07-16 19:37:01.203 [http-bio-8080-exec-2] DEBUG cn.rayfoo.service.impl.AccountServiceImpl - 进入了transFer
+2020-07-16 19:37:01.207 [http-bio-8080-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2020-07-16 19:37:01.215 [http-bio-8080-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2ddff30f]
+2020-07-16 19:37:01.249 [http-bio-8080-exec-2] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@5fdac742] will be managed by Spring
+2020-07-16 19:37:01.258 [http-bio-8080-exec-2] DEBUG cn.rayfoo.mapper.AccountMapper.findAccountByName - ==>  Preparing: select id,`name`,money from account WHERE `name` = ? 
+2020-07-16 19:37:01.295 [http-bio-8080-exec-2] DEBUG cn.rayfoo.mapper.AccountMapper.findAccountByName - ==> Parameters: aaa(String)
+2020-07-16 19:37:01.317 [http-bio-8080-exec-2] DEBUG cn.rayfoo.mapper.AccountMapper.findAccountByName - <==      Total: 1
+2020-07-16 19:37:01.319 [http-bio-8080-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2ddff30f]
+2020-07-16 19:37:01.319 [http-bio-8080-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2ddff30f] from current transaction
+2020-07-16 19:37:01.320 [http-bio-8080-exec-2] DEBUG cn.rayfoo.mapper.AccountMapper.findAccountByName - ==>  Preparing: select id,`name`,money from account WHERE `name` = ? 
+2020-07-16 19:37:01.321 [http-bio-8080-exec-2] DEBUG cn.rayfoo.mapper.AccountMapper.findAccountByName - ==> Parameters: bbb(String)
+2020-07-16 19:37:01.322 [http-bio-8080-exec-2] DEBUG cn.rayfoo.mapper.AccountMapper.findAccountByName - <==      Total: 1
+2020-07-16 19:37:01.322 [http-bio-8080-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2ddff30f]
+2020-07-16 19:37:01.322 [http-bio-8080-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2ddff30f] from current transaction
+2020-07-16 19:37:01.328 [http-bio-8080-exec-2] DEBUG cn.rayfoo.mapper.AccountMapper.updateByPrimaryKey - ==>  Preparing: UPDATE account SET NAME = ?, MONEY = ? WHERE ID = ? 
+2020-07-16 19:37:01.329 [http-bio-8080-exec-2] DEBUG cn.rayfoo.mapper.AccountMapper.updateByPrimaryKey - ==> Parameters: aaa(String), 700.0(Double), 1(Integer)
+2020-07-16 19:37:01.332 [http-bio-8080-exec-2] DEBUG cn.rayfoo.mapper.AccountMapper.updateByPrimaryKey - <==    Updates: 1
+2020-07-16 19:37:01.332 [http-bio-8080-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2ddff30f]
+2020-07-16 19:37:01.332 [http-bio-8080-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2ddff30f] from current transaction
+2020-07-16 19:37:01.333 [http-bio-8080-exec-2] DEBUG cn.rayfoo.mapper.AccountMapper.updateByPrimaryKey - ==>  Preparing: UPDATE account SET NAME = ?, MONEY = ? WHERE ID = ? 
+2020-07-16 19:37:01.334 [http-bio-8080-exec-2] DEBUG cn.rayfoo.mapper.AccountMapper.updateByPrimaryKey - ==> Parameters: bbb(String), 1200.0(Double), 2(Integer)
+2020-07-16 19:37:01.337 [http-bio-8080-exec-2] DEBUG cn.rayfoo.mapper.AccountMapper.updateByPrimaryKey - <==    Updates: 1
+2020-07-16 19:37:01.337 [http-bio-8080-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2ddff30f]
+2020-07-16 19:37:01.337 [http-bio-8080-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2ddff30f]
+2020-07-16 19:37:01.337 [http-bio-8080-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2ddff30f]
+2020-07-16 19:37:01.338 [http-bio-8080-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2ddff30f]
+2020-07-16 19:37:01.338 [http-bio-8080-exec-2] DEBUG o.s.jdbc.datasource.DataSourceTransactionManager - Initiating transaction commit
+2020-07-16 19:37:01.338 [http-bio-8080-exec-2] DEBUG o.s.jdbc.datasource.DataSourceTransactionManager - Committing JDBC transaction on Connection [com.mysql.jdbc.JDBC4Connection@5fdac742]
+2020-07-16 19:37:01.341 [http-bio-8080-exec-2] DEBUG o.s.jdbc.datasource.DataSourceTransactionManager - Releasing JDBC Connection [com.mysql.jdbc.JDBC4Connection@5fdac742] after transaction
+2020-07-16 19:37:01.365 [http-bio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'text/html;charset=utf-8', given [*/*] and supported [text/html;charset=utf-8, application/json;charset=utf-8, application/json, application/*+json, text/plain, */*, application/json, application/*+json]
+2020-07-16 19:37:01.365 [http-bio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing ["转账成功！"]
+2020-07-16 19:37:01.379 [http-bio-8080-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2020-07-16 19:38:00.277 [localhost-startStop-1] DEBUG o.s.web.filter.CharacterEncodingFilter - Filter 'characterEncodingFilter' configured for use
+2020-07-16 19:38:00.300 [localhost-startStop-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-07-16 19:38:00.313 [localhost-startStop-1] DEBUG o.s.web.context.support.XmlWebApplicationContext - Refreshing WebApplicationContext for namespace 'dispatcherServlet-servlet'
+2020-07-16 19:38:00.509 [localhost-startStop-1] DEBUG o.s.c.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/rayfoo/IdeaProjects/Spring/ssm_maven/target/classes/cn/rayfoo/common/MyAspect.class]
+2020-07-16 19:38:00.521 [localhost-startStop-1] DEBUG o.s.c.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/rayfoo/IdeaProjects/Spring/ssm_maven/target/classes/cn/rayfoo/controller/AccountController.class]
+2020-07-16 19:38:00.521 [localhost-startStop-1] DEBUG o.s.c.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/rayfoo/IdeaProjects/Spring/ssm_maven/target/classes/cn/rayfoo/controller/PersonController.class]
+2020-07-16 19:38:00.524 [localhost-startStop-1] DEBUG o.s.c.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/rayfoo/IdeaProjects/Spring/ssm_maven/target/classes/cn/rayfoo/service/impl/AccountServiceImpl.class]
+2020-07-16 19:38:00.525 [localhost-startStop-1] DEBUG o.s.c.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/rayfoo/IdeaProjects/Spring/ssm_maven/target/classes/cn/rayfoo/service/impl/PersonServiceImpl.class]
+2020-07-16 19:38:00.571 [localhost-startStop-1] DEBUG o.s.beans.factory.xml.XmlBeanDefinitionReader - Loaded 2 bean definitions from class path resource [spring/Spring-AOP.xml]
+2020-07-16 19:38:00.572 [localhost-startStop-1] DEBUG o.s.beans.factory.xml.XmlBeanDefinitionReader - Loaded 22 bean definitions from class path resource [spring/Spring-DAO.xml]
+2020-07-16 19:38:00.601 [localhost-startStop-1] DEBUG o.s.beans.factory.xml.XmlBeanDefinitionReader - Loaded 39 bean definitions from class path resource [spring/Spring-MVC.xml]
+2020-07-16 19:38:00.627 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2020-07-16 19:38:00.686 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.mybatis.spring.mapper.MapperScannerConfigurer#0'
+2020-07-16 19:38:00.697 [localhost-startStop-1] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [/Users/rayfoo/IdeaProjects/Spring/ssm_maven/target/classes/cn/rayfoo/mapper/AccountMapper.class]
+2020-07-16 19:38:00.697 [localhost-startStop-1] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [/Users/rayfoo/IdeaProjects/Spring/ssm_maven/target/classes/cn/rayfoo/mapper/PersonMapper.class]
+2020-07-16 19:38:00.697 [localhost-startStop-1] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'accountMapper' and 'cn.rayfoo.mapper.AccountMapper' mapperInterface
+2020-07-16 19:38:00.698 [localhost-startStop-1] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'accountMapper'.
+2020-07-16 19:38:00.698 [localhost-startStop-1] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'personMapper' and 'cn.rayfoo.mapper.PersonMapper' mapperInterface
+2020-07-16 19:38:00.698 [localhost-startStop-1] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'personMapper'.
+2020-07-16 19:38:00.700 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0'
+2020-07-16 19:38:00.717 [localhost-startStop-1] DEBUG org.springframework.jndi.JndiTemplate - Looking up JNDI object with name [java:comp/env/jdbc.driverClassName]
+2020-07-16 19:38:00.721 [localhost-startStop-1] DEBUG org.springframework.jndi.JndiLocatorDelegate - Converted JNDI name [java:comp/env/jdbc.driverClassName] not found - trying original name [jdbc.driverClassName]. javax.naming.NameNotFoundException: Name [jdbc.driverClassName] is not bound in this Context. Unable to find [jdbc.driverClassName].
+2020-07-16 19:38:00.722 [localhost-startStop-1] DEBUG org.springframework.jndi.JndiTemplate - Looking up JNDI object with name [jdbc.driverClassName]
+2020-07-16 19:38:00.723 [localhost-startStop-1] DEBUG org.springframework.jndi.JndiPropertySource - JNDI lookup for name [jdbc.driverClassName] threw NamingException with message: Name [jdbc.driverClassName] is not bound in this Context. Unable to find [jdbc.driverClassName].. Returning null.
+2020-07-16 19:38:00.723 [localhost-startStop-1] DEBUG o.s.core.env.PropertySourcesPropertyResolver - Found key 'jdbc.driverClassName' in PropertySource 'localProperties' with value of type String
+2020-07-16 19:38:00.724 [localhost-startStop-1] DEBUG org.springframework.jndi.JndiTemplate - Looking up JNDI object with name [java:comp/env/jdbc.url]
+2020-07-16 19:38:00.726 [localhost-startStop-1] DEBUG org.springframework.jndi.JndiLocatorDelegate - Converted JNDI name [java:comp/env/jdbc.url] not found - trying original name [jdbc.url]. javax.naming.NameNotFoundException: Name [jdbc.url] is not bound in this Context. Unable to find [jdbc.url].
+2020-07-16 19:38:00.727 [localhost-startStop-1] DEBUG org.springframework.jndi.JndiTemplate - Looking up JNDI object with name [jdbc.url]
+2020-07-16 19:38:00.729 [localhost-startStop-1] DEBUG org.springframework.jndi.JndiPropertySource - JNDI lookup for name [jdbc.url] threw NamingException with message: Name [jdbc.url] is not bound in this Context. Unable to find [jdbc.url].. Returning null.
+2020-07-16 19:38:00.729 [localhost-startStop-1] DEBUG o.s.core.env.PropertySourcesPropertyResolver - Found key 'jdbc.url' in PropertySource 'localProperties' with value of type String
+2020-07-16 19:38:00.730 [localhost-startStop-1] DEBUG org.springframework.jndi.JndiTemplate - Looking up JNDI object with name [java:comp/env/jdbc.username]
+2020-07-16 19:38:00.731 [localhost-startStop-1] DEBUG org.springframework.jndi.JndiLocatorDelegate - Converted JNDI name [java:comp/env/jdbc.username] not found - trying original name [jdbc.username]. javax.naming.NameNotFoundException: Name [jdbc.username] is not bound in this Context. Unable to find [jdbc.username].
+2020-07-16 19:38:00.731 [localhost-startStop-1] DEBUG org.springframework.jndi.JndiTemplate - Looking up JNDI object with name [jdbc.username]
+2020-07-16 19:38:00.732 [localhost-startStop-1] DEBUG org.springframework.jndi.JndiPropertySource - JNDI lookup for name [jdbc.username] threw NamingException with message: Name [jdbc.username] is not bound in this Context. Unable to find [jdbc.username].. Returning null.
+2020-07-16 19:38:00.733 [localhost-startStop-1] DEBUG o.s.core.env.PropertySourcesPropertyResolver - Found key 'jdbc.username' in PropertySource 'localProperties' with value of type String
+2020-07-16 19:38:00.733 [localhost-startStop-1] DEBUG org.springframework.jndi.JndiTemplate - Looking up JNDI object with name [java:comp/env/jdbc.password]
+2020-07-16 19:38:00.734 [localhost-startStop-1] DEBUG org.springframework.jndi.JndiLocatorDelegate - Converted JNDI name [java:comp/env/jdbc.password] not found - trying original name [jdbc.password]. javax.naming.NameNotFoundException: Name [jdbc.password] is not bound in this Context. Unable to find [jdbc.password].
+2020-07-16 19:38:00.734 [localhost-startStop-1] DEBUG org.springframework.jndi.JndiTemplate - Looking up JNDI object with name [jdbc.password]
+2020-07-16 19:38:00.734 [localhost-startStop-1] DEBUG org.springframework.jndi.JndiPropertySource - JNDI lookup for name [jdbc.password] threw NamingException with message: Name [jdbc.password] is not bound in this Context. Unable to find [jdbc.password].. Returning null.
+2020-07-16 19:38:00.735 [localhost-startStop-1] DEBUG o.s.core.env.PropertySourcesPropertyResolver - Found key 'jdbc.password' in PropertySource 'localProperties' with value of type String
+2020-07-16 19:38:00.737 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2020-07-16 19:38:00.740 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2020-07-16 19:38:00.741 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionalEventListenerFactory'
+2020-07-16 19:38:00.745 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2020-07-16 19:38:00.747 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2020-07-16 19:38:00.750 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2020-07-16 19:38:00.800 [localhost-startStop-1] DEBUG o.s.ui.context.support.UiApplicationContextUtils - Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.ResourceBundleThemeSource@25cae328]
+2020-07-16 19:38:00.803 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2020-07-16 19:38:00.806 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0'
+2020-07-16 19:38:00.807 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+2020-07-16 19:38:00.987 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'conversionService'
+2020-07-16 19:38:01.039 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'myAspect'
+2020-07-16 19:38:01.041 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'accountController'
+2020-07-16 19:38:01.058 [localhost-startStop-1] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-07-16 19:38:01.067 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'accountServiceImpl'
+2020-07-16 19:38:01.072 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'accountMapper'
+2020-07-16 19:38:01.081 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'sqlSessionFactory'
+2020-07-16 19:38:01.082 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'dataSource'
+2020-07-16 19:38:01.224 [localhost-startStop-1] DEBUG org.apache.ibatis.io.VFS - Class not found: org.jboss.vfs.VFS
+2020-07-16 19:38:01.224 [localhost-startStop-1] DEBUG org.apache.ibatis.io.JBoss6VFS - JBoss 6 VFS API is not available in this environment.
+2020-07-16 19:38:01.225 [localhost-startStop-1] DEBUG org.apache.ibatis.io.VFS - Class not found: org.jboss.vfs.VirtualFile
+2020-07-16 19:38:01.225 [localhost-startStop-1] DEBUG org.apache.ibatis.io.VFS - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2020-07-16 19:38:01.226 [localhost-startStop-1] DEBUG org.apache.ibatis.io.VFS - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2020-07-16 19:38:01.226 [localhost-startStop-1] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/Users/rayfoo/IdeaProjects/Spring/ssm_maven/target/classes/cn/rayfoo/bean
+2020-07-16 19:38:01.226 [localhost-startStop-1] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/Users/rayfoo/IdeaProjects/Spring/ssm_maven/target/classes/cn/rayfoo/bean
+2020-07-16 19:38:01.265 [localhost-startStop-1] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: Account.class
+2020-07-16 19:38:01.266 [localhost-startStop-1] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: Person.class
+2020-07-16 19:38:01.267 [localhost-startStop-1] DEBUG org.apache.ibatis.io.DefaultVFS - Listing file:/Users/rayfoo/IdeaProjects/Spring/ssm_maven/target/classes/cn/rayfoo/bean
+2020-07-16 19:38:01.267 [localhost-startStop-1] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/Users/rayfoo/IdeaProjects/Spring/ssm_maven/target/classes/cn/rayfoo/bean/Account.class
+2020-07-16 19:38:01.267 [localhost-startStop-1] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/Users/rayfoo/IdeaProjects/Spring/ssm_maven/target/classes/cn/rayfoo/bean/Account.class
+2020-07-16 19:38:01.268 [localhost-startStop-1] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: ����   4 g	      cn/rayfoo/bean/Account id Ljava/lang/Integer;	   	 
+2020-07-16 19:38:01.272 [localhost-startStop-1] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/Users/rayfoo/IdeaProjects/Spring/ssm_maven/target/classes/cn/rayfoo/bean/Person.class
+2020-07-16 19:38:01.272 [localhost-startStop-1] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/Users/rayfoo/IdeaProjects/Spring/ssm_maven/target/classes/cn/rayfoo/bean/Person.class
+2020-07-16 19:38:01.273 [localhost-startStop-1] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: ����   4 d
+2020-07-16 19:38:01.274 [localhost-startStop-1] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class cn.rayfoo.bean.Account matches criteria [is assignable to Object]
+2020-07-16 19:38:01.276 [localhost-startStop-1] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class cn.rayfoo.bean.Person matches criteria [is assignable to Object]
+2020-07-16 19:38:01.279 [localhost-startStop-1] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Scanned package: 'cn.rayfoo.bean' for aliases
+2020-07-16 19:38:01.352 [localhost-startStop-1] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed configuration file: 'class path resource [mybatis/mybatis-cfg.xml]'
+2020-07-16 19:38:01.403 [localhost-startStop-1] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [/Users/rayfoo/IdeaProjects/Spring/ssm_maven/target/classes/mybatis/mapper/AccountMapper.xml]'
+2020-07-16 19:38:01.469 [localhost-startStop-1] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [/Users/rayfoo/IdeaProjects/Spring/ssm_maven/target/classes/mybatis/mapper/PersonMapper.xml]'
+2020-07-16 19:38:01.507 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.transaction.interceptor.TransactionInterceptor#0'
+2020-07-16 19:38:01.541 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'personController'
+2020-07-16 19:38:01.543 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'personServiceImpl'
+2020-07-16 19:38:01.544 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'personMapper'
+2020-07-16 19:38:01.548 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'transactionManager'
+2020-07-16 19:38:01.561 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2020-07-16 19:38:01.564 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#0'
+2020-07-16 19:38:01.588 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.handler.MappedInterceptor#0'
+2020-07-16 19:38:01.598 [localhost-startStop-1] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/**] in 'org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#0'
+2020-07-16 19:38:01.601 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mvcCorsConfigurations'
+2020-07-16 19:38:01.615 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping'
+2020-07-16 19:38:01.626 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter'
+2020-07-16 19:38:01.628 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter'
+2020-07-16 19:38:01.628 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mvcContentNegotiationManager'
+2020-07-16 19:38:01.645 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping'
+2020-07-16 19:38:01.697 [localhost-startStop-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 3 mappings in 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping'
+2020-07-16 19:38:01.701 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter'
+2020-07-16 19:38:01.985 [localhost-startStop-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2020-07-16 19:38:02.028 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mvcUriComponentsContributor'
+2020-07-16 19:38:02.057 [localhost-startStop-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2020-07-16 19:38:02.062 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0'
+2020-07-16 19:38:02.083 [localhost-startStop-1] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2020-07-16 19:38:02.085 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0'
+2020-07-16 19:38:02.089 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0'
+2020-07-16 19:38:02.091 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'internalResourceViewResolver'
+2020-07-16 19:38:02.134 [localhost-startStop-1] DEBUG org.springframework.jndi.JndiTemplate - Looking up JNDI object with name [java:comp/env/spring.liveBeansView.mbeanDomain]
+2020-07-16 19:38:02.135 [localhost-startStop-1] DEBUG org.springframework.jndi.JndiLocatorDelegate - Converted JNDI name [java:comp/env/spring.liveBeansView.mbeanDomain] not found - trying original name [spring.liveBeansView.mbeanDomain]. javax.naming.NameNotFoundException: Name [spring.liveBeansView.mbeanDomain] is not bound in this Context. Unable to find [spring.liveBeansView.mbeanDomain].
+2020-07-16 19:38:02.135 [localhost-startStop-1] DEBUG org.springframework.jndi.JndiTemplate - Looking up JNDI object with name [spring.liveBeansView.mbeanDomain]
+2020-07-16 19:38:02.136 [localhost-startStop-1] DEBUG org.springframework.jndi.JndiPropertySource - JNDI lookup for name [spring.liveBeansView.mbeanDomain] threw NamingException with message: Name [spring.liveBeansView.mbeanDomain] is not bound in this Context. Unable to find [spring.liveBeansView.mbeanDomain].. Returning null.
+2020-07-16 19:38:02.138 [localhost-startStop-1] DEBUG org.springframework.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2020-07-16 19:38:02.139 [localhost-startStop-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1838 ms
+2020-07-16 19:38:09.361 [http-bio-8080-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - POST "/transFer.php?sourceName=aaa&targetName=bbb&money=10", parameters={masked}
+2020-07-16 19:38:09.365 [http-bio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public java.lang.String cn.rayfoo.controller.AccountController.transFer(java.lang.String,java.lang.String,java.lang.Double)
+2020-07-16 19:38:09.394 [http-bio-8080-exec-2] DEBUG o.s.jdbc.datasource.DataSourceTransactionManager - Creating new transaction with name [cn.rayfoo.service.impl.AccountServiceImpl.transFer]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+2020-07-16 19:38:09.438 [http-bio-8080-exec-2] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-07-16 19:38:09.644 [http-bio-8080-exec-2] DEBUG o.s.jdbc.datasource.DataSourceTransactionManager - Acquired Connection [com.mysql.jdbc.JDBC4Connection@fec0d78] for JDBC transaction
+2020-07-16 19:38:09.647 [http-bio-8080-exec-2] DEBUG o.s.jdbc.datasource.DataSourceTransactionManager - Switching JDBC Connection [com.mysql.jdbc.JDBC4Connection@fec0d78] to manual commit
+2020-07-16 19:38:09.648 [http-bio-8080-exec-2] DEBUG cn.rayfoo.common.MyAspect - 进入了切点
+2020-07-16 19:38:09.649 [http-bio-8080-exec-2] DEBUG cn.rayfoo.service.impl.AccountServiceImpl - 进入了transFer
+2020-07-16 19:38:09.654 [http-bio-8080-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2020-07-16 19:38:09.661 [http-bio-8080-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@30137542]
+2020-07-16 19:38:09.692 [http-bio-8080-exec-2] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@fec0d78] will be managed by Spring
+2020-07-16 19:38:09.699 [http-bio-8080-exec-2] DEBUG cn.rayfoo.mapper.AccountMapper.findAccountByName - ==>  Preparing: select id,`name`,money from account WHERE `name` = ? 
+2020-07-16 19:38:09.731 [http-bio-8080-exec-2] DEBUG cn.rayfoo.mapper.AccountMapper.findAccountByName - ==> Parameters: aaa(String)
+2020-07-16 19:38:09.756 [http-bio-8080-exec-2] DEBUG cn.rayfoo.mapper.AccountMapper.findAccountByName - <==      Total: 1
+2020-07-16 19:38:09.757 [http-bio-8080-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@30137542]
+2020-07-16 19:38:09.757 [http-bio-8080-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@30137542] from current transaction
+2020-07-16 19:38:09.758 [http-bio-8080-exec-2] DEBUG cn.rayfoo.mapper.AccountMapper.findAccountByName - ==>  Preparing: select id,`name`,money from account WHERE `name` = ? 
+2020-07-16 19:38:09.758 [http-bio-8080-exec-2] DEBUG cn.rayfoo.mapper.AccountMapper.findAccountByName - ==> Parameters: bbb(String)
+2020-07-16 19:38:09.759 [http-bio-8080-exec-2] DEBUG cn.rayfoo.mapper.AccountMapper.findAccountByName - <==      Total: 1
+2020-07-16 19:38:09.759 [http-bio-8080-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@30137542]
+2020-07-16 19:38:09.760 [http-bio-8080-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@30137542] from current transaction
+2020-07-16 19:38:09.765 [http-bio-8080-exec-2] DEBUG cn.rayfoo.mapper.AccountMapper.updateByPrimaryKey - ==>  Preparing: UPDATE account SET NAME = ?, MONEY = ? WHERE ID = ? 
+2020-07-16 19:38:09.765 [http-bio-8080-exec-2] DEBUG cn.rayfoo.mapper.AccountMapper.updateByPrimaryKey - ==> Parameters: aaa(String), 690.0(Double), 1(Integer)
+2020-07-16 19:38:09.771 [http-bio-8080-exec-2] DEBUG cn.rayfoo.mapper.AccountMapper.updateByPrimaryKey - <==    Updates: 1
+2020-07-16 19:38:09.771 [http-bio-8080-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@30137542]
+2020-07-16 19:38:09.771 [http-bio-8080-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@30137542] from current transaction
+2020-07-16 19:38:09.772 [http-bio-8080-exec-2] DEBUG cn.rayfoo.mapper.AccountMapper.updateByPrimaryKey - ==>  Preparing: UPDATE account SET NAME = ?, MONEY = ? WHERE ID = ? 
+2020-07-16 19:38:09.772 [http-bio-8080-exec-2] DEBUG cn.rayfoo.mapper.AccountMapper.updateByPrimaryKey - ==> Parameters: bbb(String), 1210.0(Double), 2(Integer)
+2020-07-16 19:38:09.774 [http-bio-8080-exec-2] DEBUG cn.rayfoo.mapper.AccountMapper.updateByPrimaryKey - <==    Updates: 1
+2020-07-16 19:38:09.774 [http-bio-8080-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@30137542]
+2020-07-16 19:38:09.774 [http-bio-8080-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@30137542]
+2020-07-16 19:38:09.774 [http-bio-8080-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@30137542]
+2020-07-16 19:38:09.774 [http-bio-8080-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@30137542]
+2020-07-16 19:38:09.775 [http-bio-8080-exec-2] DEBUG o.s.jdbc.datasource.DataSourceTransactionManager - Initiating transaction commit
+2020-07-16 19:38:09.775 [http-bio-8080-exec-2] DEBUG o.s.jdbc.datasource.DataSourceTransactionManager - Committing JDBC transaction on Connection [com.mysql.jdbc.JDBC4Connection@fec0d78]
+2020-07-16 19:38:09.777 [http-bio-8080-exec-2] DEBUG o.s.jdbc.datasource.DataSourceTransactionManager - Releasing JDBC Connection [com.mysql.jdbc.JDBC4Connection@fec0d78] after transaction
+2020-07-16 19:38:09.796 [http-bio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'text/html;charset=utf-8', given [*/*] and supported [text/html;charset=utf-8, application/json;charset=utf-8, application/json, application/*+json, text/plain, */*, application/json, application/*+json]
+2020-07-16 19:38:09.797 [http-bio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing ["转账成功！"]
+2020-07-16 19:38:09.809 [http-bio-8080-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2020-07-16 19:45:51.229 [localhost-startStop-1] DEBUG o.s.web.filter.CharacterEncodingFilter - Filter 'characterEncodingFilter' configured for use
+2020-07-16 19:45:51.253 [localhost-startStop-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-07-16 19:45:51.263 [localhost-startStop-1] DEBUG o.s.web.context.support.XmlWebApplicationContext - Refreshing WebApplicationContext for namespace 'dispatcherServlet-servlet'
+2020-07-16 19:45:51.465 [localhost-startStop-1] DEBUG o.s.c.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/rayfoo/IdeaProjects/Spring/ssm_maven/target/classes/cn/rayfoo/common/MyAspect.class]
+2020-07-16 19:45:51.489 [localhost-startStop-1] DEBUG o.s.c.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/rayfoo/IdeaProjects/Spring/ssm_maven/target/classes/cn/rayfoo/controller/AccountController.class]
+2020-07-16 19:45:51.490 [localhost-startStop-1] DEBUG o.s.c.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/rayfoo/IdeaProjects/Spring/ssm_maven/target/classes/cn/rayfoo/controller/PersonController.class]
+2020-07-16 19:45:51.493 [localhost-startStop-1] DEBUG o.s.c.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/rayfoo/IdeaProjects/Spring/ssm_maven/target/classes/cn/rayfoo/service/impl/AccountServiceImpl.class]
+2020-07-16 19:45:51.494 [localhost-startStop-1] DEBUG o.s.c.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/rayfoo/IdeaProjects/Spring/ssm_maven/target/classes/cn/rayfoo/service/impl/PersonServiceImpl.class]
+2020-07-16 19:45:51.534 [localhost-startStop-1] DEBUG o.s.beans.factory.xml.XmlBeanDefinitionReader - Loaded 2 bean definitions from class path resource [spring/Spring-AOP.xml]
+2020-07-16 19:45:51.535 [localhost-startStop-1] DEBUG o.s.beans.factory.xml.XmlBeanDefinitionReader - Loaded 22 bean definitions from class path resource [spring/Spring-DAO.xml]
+2020-07-16 19:45:51.565 [localhost-startStop-1] DEBUG o.s.beans.factory.xml.XmlBeanDefinitionReader - Loaded 39 bean definitions from class path resource [spring/Spring-MVC.xml]
+2020-07-16 19:45:51.601 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2020-07-16 19:45:51.659 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.mybatis.spring.mapper.MapperScannerConfigurer#0'
+2020-07-16 19:45:51.669 [localhost-startStop-1] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [/Users/rayfoo/IdeaProjects/Spring/ssm_maven/target/classes/cn/rayfoo/mapper/AccountMapper.class]
+2020-07-16 19:45:51.669 [localhost-startStop-1] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [/Users/rayfoo/IdeaProjects/Spring/ssm_maven/target/classes/cn/rayfoo/mapper/PersonMapper.class]
+2020-07-16 19:45:51.670 [localhost-startStop-1] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'accountMapper' and 'cn.rayfoo.mapper.AccountMapper' mapperInterface
+2020-07-16 19:45:51.670 [localhost-startStop-1] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'accountMapper'.
+2020-07-16 19:45:51.670 [localhost-startStop-1] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'personMapper' and 'cn.rayfoo.mapper.PersonMapper' mapperInterface
+2020-07-16 19:45:51.670 [localhost-startStop-1] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'personMapper'.
+2020-07-16 19:45:51.672 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0'
+2020-07-16 19:45:51.692 [localhost-startStop-1] DEBUG org.springframework.jndi.JndiTemplate - Looking up JNDI object with name [java:comp/env/jdbc.driverClassName]
+2020-07-16 19:45:51.694 [localhost-startStop-1] DEBUG org.springframework.jndi.JndiLocatorDelegate - Converted JNDI name [java:comp/env/jdbc.driverClassName] not found - trying original name [jdbc.driverClassName]. javax.naming.NameNotFoundException: Name [jdbc.driverClassName] is not bound in this Context. Unable to find [jdbc.driverClassName].
+2020-07-16 19:45:51.695 [localhost-startStop-1] DEBUG org.springframework.jndi.JndiTemplate - Looking up JNDI object with name [jdbc.driverClassName]
+2020-07-16 19:45:51.695 [localhost-startStop-1] DEBUG org.springframework.jndi.JndiPropertySource - JNDI lookup for name [jdbc.driverClassName] threw NamingException with message: Name [jdbc.driverClassName] is not bound in this Context. Unable to find [jdbc.driverClassName].. Returning null.
+2020-07-16 19:45:51.695 [localhost-startStop-1] DEBUG o.s.core.env.PropertySourcesPropertyResolver - Found key 'jdbc.driverClassName' in PropertySource 'localProperties' with value of type String
+2020-07-16 19:45:51.696 [localhost-startStop-1] DEBUG org.springframework.jndi.JndiTemplate - Looking up JNDI object with name [java:comp/env/jdbc.url]
+2020-07-16 19:45:51.696 [localhost-startStop-1] DEBUG org.springframework.jndi.JndiLocatorDelegate - Converted JNDI name [java:comp/env/jdbc.url] not found - trying original name [jdbc.url]. javax.naming.NameNotFoundException: Name [jdbc.url] is not bound in this Context. Unable to find [jdbc.url].
+2020-07-16 19:45:51.696 [localhost-startStop-1] DEBUG org.springframework.jndi.JndiTemplate - Looking up JNDI object with name [jdbc.url]
+2020-07-16 19:45:51.697 [localhost-startStop-1] DEBUG org.springframework.jndi.JndiPropertySource - JNDI lookup for name [jdbc.url] threw NamingException with message: Name [jdbc.url] is not bound in this Context. Unable to find [jdbc.url].. Returning null.
+2020-07-16 19:45:51.697 [localhost-startStop-1] DEBUG o.s.core.env.PropertySourcesPropertyResolver - Found key 'jdbc.url' in PropertySource 'localProperties' with value of type String
+2020-07-16 19:45:51.697 [localhost-startStop-1] DEBUG org.springframework.jndi.JndiTemplate - Looking up JNDI object with name [java:comp/env/jdbc.username]
+2020-07-16 19:45:51.697 [localhost-startStop-1] DEBUG org.springframework.jndi.JndiLocatorDelegate - Converted JNDI name [java:comp/env/jdbc.username] not found - trying original name [jdbc.username]. javax.naming.NameNotFoundException: Name [jdbc.username] is not bound in this Context. Unable to find [jdbc.username].
+2020-07-16 19:45:51.698 [localhost-startStop-1] DEBUG org.springframework.jndi.JndiTemplate - Looking up JNDI object with name [jdbc.username]
+2020-07-16 19:45:51.698 [localhost-startStop-1] DEBUG org.springframework.jndi.JndiPropertySource - JNDI lookup for name [jdbc.username] threw NamingException with message: Name [jdbc.username] is not bound in this Context. Unable to find [jdbc.username].. Returning null.
+2020-07-16 19:45:51.698 [localhost-startStop-1] DEBUG o.s.core.env.PropertySourcesPropertyResolver - Found key 'jdbc.username' in PropertySource 'localProperties' with value of type String
+2020-07-16 19:45:51.699 [localhost-startStop-1] DEBUG org.springframework.jndi.JndiTemplate - Looking up JNDI object with name [java:comp/env/jdbc.password]
+2020-07-16 19:45:51.699 [localhost-startStop-1] DEBUG org.springframework.jndi.JndiLocatorDelegate - Converted JNDI name [java:comp/env/jdbc.password] not found - trying original name [jdbc.password]. javax.naming.NameNotFoundException: Name [jdbc.password] is not bound in this Context. Unable to find [jdbc.password].
+2020-07-16 19:45:51.699 [localhost-startStop-1] DEBUG org.springframework.jndi.JndiTemplate - Looking up JNDI object with name [jdbc.password]
+2020-07-16 19:45:51.700 [localhost-startStop-1] DEBUG org.springframework.jndi.JndiPropertySource - JNDI lookup for name [jdbc.password] threw NamingException with message: Name [jdbc.password] is not bound in this Context. Unable to find [jdbc.password].. Returning null.
+2020-07-16 19:45:51.700 [localhost-startStop-1] DEBUG o.s.core.env.PropertySourcesPropertyResolver - Found key 'jdbc.password' in PropertySource 'localProperties' with value of type String
+2020-07-16 19:45:51.702 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2020-07-16 19:45:51.704 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2020-07-16 19:45:51.705 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionalEventListenerFactory'
+2020-07-16 19:45:51.707 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2020-07-16 19:45:51.708 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2020-07-16 19:45:51.710 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2020-07-16 19:45:51.733 [localhost-startStop-1] DEBUG o.s.ui.context.support.UiApplicationContextUtils - Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.ResourceBundleThemeSource@32cefe70]
+2020-07-16 19:45:51.735 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2020-07-16 19:45:51.737 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0'
+2020-07-16 19:45:51.737 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+2020-07-16 19:45:51.886 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'conversionService'
+2020-07-16 19:45:51.936 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'myAspect'
+2020-07-16 19:45:51.937 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'accountController'
+2020-07-16 19:45:51.950 [localhost-startStop-1] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-07-16 19:45:51.962 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'accountServiceImpl'
+2020-07-16 19:45:51.964 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'accountMapper'
+2020-07-16 19:45:51.973 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'sqlSessionFactory'
+2020-07-16 19:45:51.973 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'dataSource'
+2020-07-16 19:45:52.078 [localhost-startStop-1] DEBUG org.apache.ibatis.io.VFS - Class not found: org.jboss.vfs.VFS
+2020-07-16 19:45:52.078 [localhost-startStop-1] DEBUG org.apache.ibatis.io.JBoss6VFS - JBoss 6 VFS API is not available in this environment.
+2020-07-16 19:45:52.079 [localhost-startStop-1] DEBUG org.apache.ibatis.io.VFS - Class not found: org.jboss.vfs.VirtualFile
+2020-07-16 19:45:52.079 [localhost-startStop-1] DEBUG org.apache.ibatis.io.VFS - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2020-07-16 19:45:52.080 [localhost-startStop-1] DEBUG org.apache.ibatis.io.VFS - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2020-07-16 19:45:52.080 [localhost-startStop-1] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/Users/rayfoo/IdeaProjects/Spring/ssm_maven/target/classes/cn/rayfoo/bean
+2020-07-16 19:45:52.080 [localhost-startStop-1] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/Users/rayfoo/IdeaProjects/Spring/ssm_maven/target/classes/cn/rayfoo/bean
+2020-07-16 19:45:52.106 [localhost-startStop-1] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: Account.class
+2020-07-16 19:45:52.106 [localhost-startStop-1] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: Person.class
+2020-07-16 19:45:52.107 [localhost-startStop-1] DEBUG org.apache.ibatis.io.DefaultVFS - Listing file:/Users/rayfoo/IdeaProjects/Spring/ssm_maven/target/classes/cn/rayfoo/bean
+2020-07-16 19:45:52.107 [localhost-startStop-1] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/Users/rayfoo/IdeaProjects/Spring/ssm_maven/target/classes/cn/rayfoo/bean/Account.class
+2020-07-16 19:45:52.107 [localhost-startStop-1] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/Users/rayfoo/IdeaProjects/Spring/ssm_maven/target/classes/cn/rayfoo/bean/Account.class
+2020-07-16 19:45:52.108 [localhost-startStop-1] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: ����   4 g	      cn/rayfoo/bean/Account id Ljava/lang/Integer;	   	 
+2020-07-16 19:45:52.113 [localhost-startStop-1] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/Users/rayfoo/IdeaProjects/Spring/ssm_maven/target/classes/cn/rayfoo/bean/Person.class
+2020-07-16 19:45:52.114 [localhost-startStop-1] DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/Users/rayfoo/IdeaProjects/Spring/ssm_maven/target/classes/cn/rayfoo/bean/Person.class
+2020-07-16 19:45:52.115 [localhost-startStop-1] DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: ����   4 d
+2020-07-16 19:45:52.117 [localhost-startStop-1] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class cn.rayfoo.bean.Account matches criteria [is assignable to Object]
+2020-07-16 19:45:52.119 [localhost-startStop-1] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class cn.rayfoo.bean.Person matches criteria [is assignable to Object]
+2020-07-16 19:45:52.122 [localhost-startStop-1] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Scanned package: 'cn.rayfoo.bean' for aliases
+2020-07-16 19:45:52.170 [localhost-startStop-1] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed configuration file: 'class path resource [mybatis/mybatis-cfg.xml]'
+2020-07-16 19:45:52.203 [localhost-startStop-1] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [/Users/rayfoo/IdeaProjects/Spring/ssm_maven/target/classes/mybatis/mapper/AccountMapper.xml]'
+2020-07-16 19:45:52.233 [localhost-startStop-1] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [/Users/rayfoo/IdeaProjects/Spring/ssm_maven/target/classes/mybatis/mapper/PersonMapper.xml]'
+2020-07-16 19:45:52.245 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'personMapper'
+2020-07-16 19:45:52.258 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.transaction.interceptor.TransactionInterceptor#0'
+2020-07-16 19:45:52.272 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'personServiceImpl'
+2020-07-16 19:45:52.274 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'personController'
+2020-07-16 19:45:52.275 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'transactionManager'
+2020-07-16 19:45:52.284 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2020-07-16 19:45:52.287 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#0'
+2020-07-16 19:45:52.299 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.handler.MappedInterceptor#0'
+2020-07-16 19:45:52.306 [localhost-startStop-1] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/**] in 'org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#0'
+2020-07-16 19:45:52.308 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mvcCorsConfigurations'
+2020-07-16 19:45:52.316 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping'
+2020-07-16 19:45:52.323 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter'
+2020-07-16 19:45:52.324 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter'
+2020-07-16 19:45:52.325 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mvcContentNegotiationManager'
+2020-07-16 19:45:52.335 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping'
+2020-07-16 19:45:52.371 [localhost-startStop-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 3 mappings in 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping'
+2020-07-16 19:45:52.373 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter'
+2020-07-16 19:45:52.611 [localhost-startStop-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2020-07-16 19:45:52.632 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mvcUriComponentsContributor'
+2020-07-16 19:45:52.653 [localhost-startStop-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2020-07-16 19:45:52.657 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0'
+2020-07-16 19:45:52.678 [localhost-startStop-1] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2020-07-16 19:45:52.680 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0'
+2020-07-16 19:45:52.683 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0'
+2020-07-16 19:45:52.685 [localhost-startStop-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'internalResourceViewResolver'
+2020-07-16 19:45:52.716 [localhost-startStop-1] DEBUG org.springframework.jndi.JndiTemplate - Looking up JNDI object with name [java:comp/env/spring.liveBeansView.mbeanDomain]
+2020-07-16 19:45:52.716 [localhost-startStop-1] DEBUG org.springframework.jndi.JndiLocatorDelegate - Converted JNDI name [java:comp/env/spring.liveBeansView.mbeanDomain] not found - trying original name [spring.liveBeansView.mbeanDomain]. javax.naming.NameNotFoundException: Name [spring.liveBeansView.mbeanDomain] is not bound in this Context. Unable to find [spring.liveBeansView.mbeanDomain].
+2020-07-16 19:45:52.716 [localhost-startStop-1] DEBUG org.springframework.jndi.JndiTemplate - Looking up JNDI object with name [spring.liveBeansView.mbeanDomain]
+2020-07-16 19:45:52.717 [localhost-startStop-1] DEBUG org.springframework.jndi.JndiPropertySource - JNDI lookup for name [spring.liveBeansView.mbeanDomain] threw NamingException with message: Name [spring.liveBeansView.mbeanDomain] is not bound in this Context. Unable to find [spring.liveBeansView.mbeanDomain].. Returning null.
+2020-07-16 19:45:52.719 [localhost-startStop-1] DEBUG org.springframework.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2020-07-16 19:45:52.719 [localhost-startStop-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1466 ms
+2020-07-16 19:46:22.677 [http-bio-8080-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - POST "/transFer.php?sourceName=aaa&targetName=bbb&money=10", parameters={masked}
+2020-07-16 19:46:22.699 [http-bio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public java.lang.String cn.rayfoo.controller.AccountController.transFer(java.lang.String,java.lang.String,java.lang.Double)
+2020-07-16 19:46:22.743 [http-bio-8080-exec-2] DEBUG o.s.jdbc.datasource.DataSourceTransactionManager - Creating new transaction with name [cn.rayfoo.service.impl.AccountServiceImpl.transFer]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+2020-07-16 19:46:22.782 [http-bio-8080-exec-2] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-07-16 19:46:22.992 [http-bio-8080-exec-2] DEBUG o.s.jdbc.datasource.DataSourceTransactionManager - Acquired Connection [com.mysql.jdbc.JDBC4Connection@3dcc760f] for JDBC transaction
+2020-07-16 19:46:23.005 [http-bio-8080-exec-2] DEBUG o.s.jdbc.datasource.DataSourceTransactionManager - Switching JDBC Connection [com.mysql.jdbc.JDBC4Connection@3dcc760f] to manual commit
+2020-07-16 19:46:23.015 [http-bio-8080-exec-2] DEBUG cn.rayfoo.common.MyAspect - 进入了切点
+2020-07-16 19:46:23.016 [http-bio-8080-exec-2] DEBUG cn.rayfoo.service.impl.AccountServiceImpl - 进入了transFer
+2020-07-16 19:46:23.023 [http-bio-8080-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2020-07-16 19:46:23.031 [http-bio-8080-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7d2bda94]
+2020-07-16 19:46:23.075 [http-bio-8080-exec-2] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@3dcc760f] will be managed by Spring
+2020-07-16 19:46:23.081 [http-bio-8080-exec-2] DEBUG cn.rayfoo.mapper.AccountMapper.findAccountByName - ==>  Preparing: select id,`name`,money from account WHERE `name` = ? 
+2020-07-16 19:46:23.114 [http-bio-8080-exec-2] DEBUG cn.rayfoo.mapper.AccountMapper.findAccountByName - ==> Parameters: aaa(String)
+2020-07-16 19:46:23.137 [http-bio-8080-exec-2] DEBUG cn.rayfoo.mapper.AccountMapper.findAccountByName - <==      Total: 1
+2020-07-16 19:46:23.138 [http-bio-8080-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7d2bda94]
+2020-07-16 19:46:23.138 [http-bio-8080-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7d2bda94] from current transaction
+2020-07-16 19:46:23.139 [http-bio-8080-exec-2] DEBUG cn.rayfoo.mapper.AccountMapper.findAccountByName - ==>  Preparing: select id,`name`,money from account WHERE `name` = ? 
+2020-07-16 19:46:23.139 [http-bio-8080-exec-2] DEBUG cn.rayfoo.mapper.AccountMapper.findAccountByName - ==> Parameters: bbb(String)
+2020-07-16 19:46:23.141 [http-bio-8080-exec-2] DEBUG cn.rayfoo.mapper.AccountMapper.findAccountByName - <==      Total: 1
+2020-07-16 19:46:23.141 [http-bio-8080-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7d2bda94]
+2020-07-16 19:46:23.142 [http-bio-8080-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7d2bda94] from current transaction
+2020-07-16 19:46:23.148 [http-bio-8080-exec-2] DEBUG cn.rayfoo.mapper.AccountMapper.updateByPrimaryKey - ==>  Preparing: UPDATE account SET NAME = ?, MONEY = ? WHERE ID = ? 
+2020-07-16 19:46:23.149 [http-bio-8080-exec-2] DEBUG cn.rayfoo.mapper.AccountMapper.updateByPrimaryKey - ==> Parameters: aaa(String), 680.0(Double), 1(Integer)
+2020-07-16 19:46:23.151 [http-bio-8080-exec-2] DEBUG cn.rayfoo.mapper.AccountMapper.updateByPrimaryKey - <==    Updates: 1
+2020-07-16 19:46:23.152 [http-bio-8080-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7d2bda94]
+2020-07-16 19:46:23.152 [http-bio-8080-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7d2bda94] from current transaction
+2020-07-16 19:46:23.153 [http-bio-8080-exec-2] DEBUG cn.rayfoo.mapper.AccountMapper.updateByPrimaryKey - ==>  Preparing: UPDATE account SET NAME = ?, MONEY = ? WHERE ID = ? 
+2020-07-16 19:46:23.153 [http-bio-8080-exec-2] DEBUG cn.rayfoo.mapper.AccountMapper.updateByPrimaryKey - ==> Parameters: bbb(String), 1220.0(Double), 2(Integer)
+2020-07-16 19:46:23.155 [http-bio-8080-exec-2] DEBUG cn.rayfoo.mapper.AccountMapper.updateByPrimaryKey - <==    Updates: 1
+2020-07-16 19:46:23.155 [http-bio-8080-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7d2bda94]
+2020-07-16 19:46:23.155 [http-bio-8080-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7d2bda94]
+2020-07-16 19:46:23.155 [http-bio-8080-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7d2bda94]
+2020-07-16 19:46:23.156 [http-bio-8080-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7d2bda94]
+2020-07-16 19:46:23.156 [http-bio-8080-exec-2] DEBUG o.s.jdbc.datasource.DataSourceTransactionManager - Initiating transaction commit
+2020-07-16 19:46:23.156 [http-bio-8080-exec-2] DEBUG o.s.jdbc.datasource.DataSourceTransactionManager - Committing JDBC transaction on Connection [com.mysql.jdbc.JDBC4Connection@3dcc760f]
+2020-07-16 19:46:23.158 [http-bio-8080-exec-2] DEBUG o.s.jdbc.datasource.DataSourceTransactionManager - Releasing JDBC Connection [com.mysql.jdbc.JDBC4Connection@3dcc760f] after transaction
+2020-07-16 19:46:23.178 [http-bio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'text/html;charset=utf-8', given [*/*] and supported [text/html;charset=utf-8, application/json;charset=utf-8, application/json, application/*+json, text/plain, */*, application/json, application/*+json]
+2020-07-16 19:46:23.179 [http-bio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing ["转账成功！"]
+2020-07-16 19:46:23.190 [http-bio-8080-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
