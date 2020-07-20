@@ -1,10 +1,6 @@
 
-N	java:S106"9Replace this use of System.out or System.err by a logger.(™Ãø¤
-Y
-java:S1128"<Remove this unused import 'cn.rayfoo.service.PersonService'.(’éî8‡Ì·»µ.
 ^
-java:S4488%"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(ñÀÈó
+java:S4488#"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(ñÀÈó
 E
-java:S3740&"/Provide the parametrized type for this generic.(Ž¹ËÚ
-u
-java:S1128"SRemove this unused import 'org.springframework.beans.factory.annotation.Autowired'.(¡ž¸Îùÿÿÿÿ8‡Ì·»µ.
+java:S3740$"/Provide the parametrized type for this generic.(Ž¹ËÚ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(™Ãø¤

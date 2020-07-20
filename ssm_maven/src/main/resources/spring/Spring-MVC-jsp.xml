@@ -38,6 +38,11 @@
         </mvc:message-converters>
     </mvc:annotation-driven>
 
+    <!-- 文件解析器 -->
+    <bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+        <property name="maxUploadSize" value="10485760"></property>
+    </bean>
+
     <!-- jsp视图解析器，若不设置会一句springMVC默认设置 -->
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver"
           id="internalResourceViewResolver">

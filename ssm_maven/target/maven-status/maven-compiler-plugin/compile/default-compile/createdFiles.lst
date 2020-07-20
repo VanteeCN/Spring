@@ -1,2 +1,3 @@
 cn/rayfoo/controller/BaseController.class
 cn/rayfoo/service/impl/BaseService.class
+cn/rayfoo/controller/SessionController.class

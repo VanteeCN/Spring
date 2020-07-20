@@ -17,7 +17,11 @@
 
 
 
-### 使用了BaseController BaseService简化代码
+使用了BaseController BaseService简化代码
 
 从controller和service中提取了部分内容简化了代码
+
+AOP如果不需要可以不在Spring-DAO.xml中引入。
+
+sql语句在src/main中，日志文件的默认位置是项目的logs目录
 
