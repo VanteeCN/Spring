@@ -1,7 +1,7 @@
 
-_
-java:S1128"=Remove this unused import 'cn.rayfoo.service.AccountService'.(’‚ ùÿÿÿÿ8»ÑÃ»µ.
-I
-java:S1128"-Remove this unused import 'org.slf4j.Logger'.(íØ®68»ÑÃ»µ.
-Q
-java:S1128"4Remove this unused import 'org.slf4j.LoggerFactory'.(–ÿÚŞ8»ÑÃ»µ.
+O
+java:S1128"4Remove this unused import 'org.slf4j.LoggerFactory'.(–ÿÚŞ8»ÑÃ»µ.
+]
+java:S1128"=Remove this unused import 'cn.rayfoo.service.AccountService'.(’‚ ùÿÿÿÿ8»ÑÃ»µ.
+G
+java:S1128"-Remove this unused import 'org.slf4j.Logger'.(íØ®68»ÑÃ»µ.

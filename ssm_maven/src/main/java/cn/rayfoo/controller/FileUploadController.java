@@ -1,5 +1,6 @@
 package cn.rayfoo.controller;
 
+import cn.rayfoo.utils.FtpUtils;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -49,5 +50,27 @@ public class FileUploadController extends BaseController{
 
         return "success";
     }
+
+    @PostMapping("/ftpUpload")
+    public String ftpUpload(@RequestParam("file") MultipartFile file){
+        //获取文件名
+        String filename = file.getOriginalFilename();
+
+        //获取后缀
+        String suffix = filename.substring(filename.lastIndexOf("."));
+
+        //使用UUID替换文件名
+        filename = UUID.randomUUID().toString().replace("-","") + suffix;
+
+        try {
+            //完成上传
+            FtpUtils.uploadFile("/",filename,file.getInputStream());
+            return "success";
+        } catch (Exception e) {
+            e.printStackTrace();
+            return "error";
+        }
+    }
+
 
 }

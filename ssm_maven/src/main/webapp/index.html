@@ -13,7 +13,14 @@
 
     <form action="/fileUpload" method="post" enctype="multipart/form-data">
         <input type="file" name="file">
-        <input type="submit" name="上传">
+        <input type="submit" name="服务器上传">
+    </form>
+
+    <hr>
+
+    <form action="/ftpUpload" method="post" enctype="multipart/form-data">
+        <input type="file" name="file">
+        <input type="submit" name="ftp上传">
     </form>
 </body>
 </html>

@@ -1,4 +1,9 @@
+cn/rayfoo/iterceptor/MyInterceptor.class
 cn/rayfoo/controller/BaseController.class
+cn/rayfoo/controller/TestController.class
+cn/rayfoo/common/MyExceptionResplver.class
 cn/rayfoo/service/impl/BaseService.class
+cn/rayfoo/utils/FtpUtils.class
 cn/rayfoo/controller/SessionController.class
+cn/rayfoo/common/MyException.class
 cn/rayfoo/controller/FileUploadController.class

@@ -1,8 +1,6 @@
 package cn.rayfoo.common;
 
 import org.springframework.core.convert.converter.Converter;
-import org.springframework.stereotype.Component;
-
 import java.text.SimpleDateFormat;
 import java.util.Date;
 

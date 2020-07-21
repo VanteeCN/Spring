@@ -18,7 +18,6 @@ import java.util.List;
 @Service@Slf4j
 public class AccountServiceImpl extends BaseService implements AccountService {
 
-
     @Override
     @Transactional
     public String transFer(String sourceName, String targetName, Double money) {
